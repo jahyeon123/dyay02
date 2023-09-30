@@ -9,7 +9,8 @@ untracked 상태
 주석입력 : i - 주석텍스트 -  esc
 나가기 : : wq
 
-=> 한번에 하기 git commit -a
+=> 한번에 하기 git commit -a / 파일이 tracked 상태일때만 가능
+=> git commit -am '메세지'
 
 
   1) 임시저장 = stage에 올린다 
@@ -40,6 +41,7 @@ untracked 상태
   
   2-2) commit 하면서 add 하는 옵션
     : -a / git commit -a
+     단, 파일이 tracked 상태일때만 가능 / untracked 불가, 새롭게 만들어진 파일 불가
 
   3) 저장된 이력 지울 때
     : git restore 
