@@ -96,4 +96,14 @@ github
    로컬 레포지토리 브랜치와
    원격 레포지토리 브랜치를 연결하는 옵션
    최초 1회 설정하면 그 이후부터는 알아서 원격저장소(github)에 업로드/다운로드가 된다.
-   : git push -u origin feature
+   : git push -u origin 브랜치이름(feature)
+
+
+   git add .
+   git commit -m '텍스트'
+   git push -u origin 브랜치이름(feature) / 최초설정
+   'git push' 만 입력
+
+
+   원격저장소의 브랜치를 로컬로 다운로드 받기
+   
