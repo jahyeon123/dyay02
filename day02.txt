@@ -1,9 +1,23 @@
 git에서 저장하는 방식
 git repository로 만들고(관리가능 하게) 임시저장 후 영구저장 
 
+<git 저장순서>
+untracked 상태 
+임시저장 : git add 파일이름
+올라간 상태 확인 : git status
+영구저장 : git commit
+주석입력 : i - 주석텍스트 -  esc
+나가기 : : wq
+
+=> 한번에 하기 git commit -a
+
+
   1) 임시저장 = stage에 올린다 
      임시저장 하는 방법 / stage에 올리는 방법 
      : git add 파일이름
+
+     올라간 상태 확인 : git status
+      Changes to be committed
  
      ex) day02폴더는 git repository 
       day02.txt 파일은 새롭게 만든 파일로 untracked/unstaged 된 상태 
@@ -11,14 +25,29 @@ git repository로 만들고(관리가능 하게) 임시저장 후 영구저장
 
       임시저장 : git add day02.txt -> staged / utracked 상태
 
+    1-1) stage에 한번에 모든 파일 올리기
+     : git add.
+
   2) 영구저장 = stage에 올린 후 에만 임시저장 가능 
      : git commit
 
     git commit(저장) 후 주석 남기기
-    i - 텍스트 입력 - esc
+    'i' 입력 INSERT 상태로 변경 -> 텍스트 입력 - esc
     : - wq
 
-    git status
-    Changes to be committed
+  2-1) commit 하면서 메세지를 동시에 작성하는 옵션
+    : -m / git commit -m '메세지'
+  
+  2-2) commit 하면서 add 하는 옵션
+    : -a / git commit -a
 
-    git restore --staged day02.txt
+  3) 저장된 이력 지울 때
+    : git restore 
+     ex) git restore --staged day02.txt
+
+  4) git log : 영구저장 로그 표기 / 최근표기 (HEAD -> master)
+     commit 07f21a9895eeb1ad4bb4e3980a51a7271eeffb07 (HEAD -> master)
+     Author: jahyeon123 <macarons_@naver.com>
+     Date:   Sat Sep 30 10:53:19 2023 +0900
+
+     두번째 커밋입니다.
