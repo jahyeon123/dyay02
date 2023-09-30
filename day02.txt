@@ -70,3 +70,24 @@ git repository에 존재하는 브랜치 목록 확인하기
 
 branch 만들기
   git branch 브랜치이름
+
+branch 병합하기
+  git merge 브랜치 이름
+
+  현재 위치한 공간에서 해당 브랜치를 내쪽으로 병합
+  이 때 다른부분이 수정되어 있으면 이상없음
+  같은 부분이면 직접 어느 코드를 설정할지 작성해준 후 
+  직접 add, commit 해준다
+
+branch 삭제
+  git branch -d 브랜치이름
+
+브랜치이름 바꾸기 
+  git branch -m 브랜치이름
+
+
+github
+ 연결 git remote add origin 주소 
+      git remote add origin https://github.com/jahyeon123/dyay02.git
+
+ 업로드 git push origin 브랜치이름 (master/main...)
