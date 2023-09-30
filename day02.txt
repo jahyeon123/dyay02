@@ -1,0 +1,13 @@
+git에서 저장하는 방식
+git repository로 만들고(관리가능 하게) 임시 저장 후 저장 
+
+  1) 임시저장 = stage에 올린다 
+     임시저장 하는 방법 / stage에 올리는 방법 
+     : git add 파일이름
+ 
+     ex) day02폴더는 git repository 
+      day02.txt 파일은 새롭게 만든 파일로 untracked/unstaged 된 상태 
+
+      임시저장 : git add day02.txt -> staged / utracked 상태
+
+  2)저장 : 
