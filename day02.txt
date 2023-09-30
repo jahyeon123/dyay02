@@ -10,7 +10,7 @@ untracked 상태
 나가기 : : wq
 
 => 한번에 하기 git commit -a / 파일이 tracked 상태일때만 가능
-=> git commit -am '메세지'
+=> 한번에 하기 git commit -am '메세지'
 
 
   1) 임시저장 = stage에 올린다 
