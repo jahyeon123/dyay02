@@ -1,7 +1,13 @@
 git에서 저장하는 방식
 git repository로 만들고(관리가능 하게) 임시저장 후 영구저장 
 
-<git 저장순서>
+<git 순서>
+git init 으로 깃 레포지토리 만들기
+git config --global user.name ' 사용자이름 '
+git config --global user.email ' 사용자이메일 '
+git add.
+git commit -m '메세지'
+
 untracked 상태 
 임시저장 : git add 파일이름
 올라간 상태 확인 : git status
@@ -10,7 +16,7 @@ untracked 상태
 나가기 : : wq
 
 => 한번에 하기 git commit -a / 파일이 tracked 상태일때만 가능
-=> 한번에 하기 git commit -am '메세지'
+=> 한번에 하기 git commit -m '메세지'
 
 
   1) 임시저장 = stage에 올린다 
