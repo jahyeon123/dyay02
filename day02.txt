@@ -59,3 +59,11 @@ untracked 상태
      Date:   Sat Sep 30 10:53:19 2023 +0900
 
      두번째 커밋입니다.
+
+
+branch 
+  기능별로 혹은 파일별로 수정사항을 저장할 수 있도록 도와주는 장치
+  기본적으로 브랜치를 만들면 master(main) 브랜치가 만들어진다
+
+git repository에 존재하는 브랜치 목록 확인하기
+  git branch
