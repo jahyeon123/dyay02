@@ -91,3 +91,10 @@ github
       git remote add origin https://github.com/jahyeon123/dyay02.git
 
  업로드 git push origin 브랜치이름 (master/main...)
+
+
+
+ -u 옵션
+   로컬 레포지토리 브랜치와
+   원격 레포지ㅗㅌ리 브랜치를 연결하는 옵션
+   최초 1회 설정하면 그 이후부터는 알아서 원격저장소(github)에 업로드/다운로드가 된다.
