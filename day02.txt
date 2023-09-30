@@ -5,7 +5,7 @@ git repository로 만들고(관리가능 하게) 임시저장 후 영구저장
 git init 으로 깃 레포지토리 만들기
 git config --global user.name ' 사용자이름 '
 git config --global user.email ' 사용자이메일 '
-git add.
+git add .
 git commit -m '메세지'
 
 untracked 상태 
@@ -33,7 +33,7 @@ untracked 상태
       임시저장 : git add day02.txt -> staged / utracked 상태
 
     1-1) stage에 한번에 모든 파일 올리기
-     : git add.
+     : git add .
 
   2) 영구저장 = stage에 올린 후 에만 임시저장 가능 
      : git commit
